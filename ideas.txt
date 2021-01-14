@@ -9,7 +9,7 @@ Goal:
 Steps:
 	- First be Able to create tasks ---- Done
 	- Show Tasks -- DONE
-	- Delete
-	- MArk as Done
+	- Delete  -- DONE 
+	- MArk as Done ---- DONE
 	- Make UI (Tkinter maybe)
 
