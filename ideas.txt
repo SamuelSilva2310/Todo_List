@@ -1,0 +1,15 @@
+To do List APP
+
+Goal: 
+	- Store ALl tasks
+	- Be able to add new tasks
+	- Delete Tasks
+	- Mark as Done
+
+Steps:
+	- First be Able to create tasks ---- Done
+	- Show Tasks -- DONE
+	- Delete
+	- MArk as Done
+	- Make UI (Tkinter maybe)
+
