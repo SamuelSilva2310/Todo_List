@@ -29,7 +29,7 @@ def delete_task(filename: str, task):
         lines = f.readlines()
         f.seek(0)
         for line in lines:
-            if line.strip("\n") != task:
+            if line.strip("\n") not in task:
                 f.write(line)
         f.truncate()
 

@@ -2,7 +2,8 @@
 # Autor: Samuel Silva
 # Date: 14/01/2021
 # App: To do List
- 
+import file_handler as fh 
+
 MENU = """
 	 ----------------
 	       MENU
@@ -17,23 +18,23 @@ MENU = """
 
 def get_Menu(menu = MENU): 
 
-	print(menu)
+	while True: 
+		print(menu)
 
-	return action_Menu(int(input()))
+		action = int(input("Insert action -> "))
 
-
-def action_Menu(action : int):
-
-	if action == 1:
-		pass
-	elif action == 2:
-		pass
-	elif action == 3:
-	else: 
-		pass
-
-
-
+		if action == 1:
+			fh.create_task("test", "Task Test")
+		elif action == 2:
+			fh.delete_task("test", "Task Test")
+		elif action == 3:
+			fh.show_task("test")
+		elif action == 4:
+			fh.done_task("test","Task Test")
+		elif action == 5: 
+			break
+		else: 
+			print("Please Insert a valid action")
 
 get_Menu()
 
