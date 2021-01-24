@@ -13,11 +13,10 @@ def create_task(filename: str, task: str):
 #This method Shows  tasks, it will read all lines and print them, arguments:
 # filename: The name of the file
 
-def show_task(filename: str):
+def get_tasks(filename: str):
     with open("data/" + filename + ".txt", "r") as f: 
-        lines = f.readlines()
-        for line in lines:
-            print(line)
+       return  f.readlines()
+       
 
 
 #This method Deletes tasks, it reads lines, then compares it with the task that will be deleted 

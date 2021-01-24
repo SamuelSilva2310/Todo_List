@@ -13,6 +13,7 @@ MENU = """
 	 2 -- Delete
 	 3 -- List
 	 4 -- Check as Done
+	 5 -- Exit
 
 	 -----------------"""
 
